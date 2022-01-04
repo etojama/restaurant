@@ -1,18 +1,53 @@
 #main-nav {
   max-width: 100%;
   padding: 1.2rem;
+  height: 6rem;
 }
 
 #main-nav .eatery {
-  font-size: 0.7rem;
-  margin-right: 1.3rem;
+  font-size: 0.6rem;
+  width: 100%;
 }
 
 #main-nav ul li {
-  display: inline-block;
+  display: block;
   padding: 0.3rem;
   position: relative;
   overflow: hidden;
+  text-align: center;
+  height: 3rem;
+  background-color: #444;
+  transition: all 0.9s;
+}
+
+#main-nav ul {
+  position: relative;
+  width: 10rem;
+  height: 2rem;
+  top: 5.5rem;
+  margin-right: -1rem;
+  left: -200%;
+}
+#main-nav ul.active {
+  position: absolute;
+  left: 0;
+  top: 5.5rem;
+}
+
+#main-nav ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+}
+
+.lines {
+  display: block;
+  cursor: pointer;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
 }
 
 #showcase {
@@ -31,21 +66,26 @@
   display: none;
 }
 
+/* .hide {
+  border: 2px solid red;
+  display: none;
+} */
+
 #picks {
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   margin-top: 1.5rem;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
 #picks h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 #picks p {
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 #picks div img {
   width: 100%;
@@ -63,6 +103,7 @@
   padding: 2rem;
   justify-content: center;
   text-align: center;
+  font-size: 0.7rem;
 }
 
 #about .about-container {

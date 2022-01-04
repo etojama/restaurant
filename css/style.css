@@ -75,6 +75,31 @@ img {
   color: #fff;
 }
 
+.lines {
+  display: none;
+}
+
+.active #line1 {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.active #line2 {
+  opacity: 0;
+}
+
+.active #line3 {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.line {
+  display: block;
+  width: 2rem;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s;
+  background-color: #fff;
+}
+
 /* Section */
 #showcase {
   display: flex;
