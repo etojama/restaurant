@@ -283,8 +283,6 @@ h2:nth-child(2) {
   margin-bottom: 2rem;
   display: block;
   border-radius: 5px;
-  /* -webkit-clip-path: polygon(0 0, 100% 0%, 99% 85%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 99% 85%, 0% 100%); */
 }
 
 .book p {
