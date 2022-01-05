@@ -24,7 +24,8 @@
       href="css/mobile.css"
     />
 
-    <title>Toroh's Eatery & Chills | About</title>
+    <title>Toroh's Eatery & Chills | Book-a-Meal</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <nav id="main-nav">
@@ -33,13 +34,20 @@
         <h1>Toroh Eatery</h1>
       </div>
 
-      <ul class="links">
+      <ul class="links" id="nav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#picks">Cuisines</a></li>
-        <li><a href="book-a-meal.html">Book-a-meal</a></li>
+        <li><a href="book-a-meal.html">Book-a-Meal</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+      <!-- <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+      </div> -->
 
       <div class="lines">
         <span class="lines-1 line" id="line1"></span>
@@ -48,24 +56,23 @@
       </div>
     </nav>
 
-    <section id="about">
-      <h1>About Us</h1>
-      <div class="about-container">
-        <p>
-          <span class="book__p1-name"> Toroh Eatery</span> is a cafe and
-          marketplace featuring fresh baked goods in 111 John Doe Street, Na So
-          Avenue., run by Pastry Chef/Baker Bob Ikpa and Chef Udo Ekpomokpo. At
-          <span class="book__p1-name"> Toroh Eatery</span> , they continue their
-          dedication to hand made food with artisan breads and pastries made
-          daily with locally-sourced, heirloom grains, as well as a produce
-          forward day-time menu.
-        </p>
+    <main class="book">
+      <h2 class="book__header">Book a meal</h2>
 
-        <img src="img/img-9.jpg" alt="" />
-      </div>
-
+      <img class="book__img" src="img/reserve.jpg" alt="restaurant image" />
+      <p class="book__p1">
+        If you would like to dine at
+        <span class="book__p1-name">toroh eatery</span>, kindly email
+        <span class="book__p1-email">toroheatery@example.com</span> with name,
+        phone number, preferred date(s), time, and number of guests.
+      </p>
       <br />
-    </section>
+      <p class="book__p2">
+        Please note that, at this time, we are booking tables 30 days in advance
+        and can accommodate party sizes of no more than 6.
+      </p>
+      <br />
+    </main>
 
     <footer>
       <div id="footer-container">
@@ -75,16 +82,16 @@
             Toroh Eatery is a cafe and marketplace featuring fresh baked goods
             in 111 John Doe Street, Na So Avenue., run by Pastry Chef/Baker Bob
             Ikpa and Chef Udo Ekpomokpo.
-            <a class="more" href="about.html">Read more</a> !
+            <a class="more" href="about.html">Read more</a>!
           </p>
         </div>
         <div>
           <h3>Links</h3>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#picks">Cusines</a></li>
-            <li><a href="book-a-meal.html">Book-a-Meal</a></li>
+            <li><a href="#">Cusines</a></li>
+            <li><a href="#">Other Services</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
