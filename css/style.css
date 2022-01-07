@@ -412,6 +412,7 @@ footer #copy {
 
 img {
   height: 30rem;
+  object-fit: cover;
 }
 
 .cuisine-header {
