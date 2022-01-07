@@ -108,6 +108,10 @@
   position: relative;
 }
 
+#showcase h2 {
+  color: #fff;
+}
+
 .special h2 {
   display: none;
 }
